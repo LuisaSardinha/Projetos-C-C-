@@ -1,3 +1,11 @@
+//Proposta: Modele
+//um sistema onde um Carro herda de uma classe base Veiculo e contém um objeto
+//Motor (composição). A classe Veiculo deve ter um método ligar(), e a classe
+//Motor deve ter um método funcionar(). A classe Carro deve ter um método
+//acelerar() que usa o motor. No método principal, crie um objeto Carro, ligue-o
+//e acelere.
+
+
 
 #include <iostream>
 #include <string>
