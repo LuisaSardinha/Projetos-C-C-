@@ -1,3 +1,6 @@
+//Proposta: Implemente um programa em C++ que implemente a classe Livro com os métodos private, public, protected, um construtor parametrizado e um menu interativo que permita inserir livro, listar livros, excluir livro pelo id e pesquisar livro
+
+
 #include <iostream>
 #include <vector>
 #include <string>
