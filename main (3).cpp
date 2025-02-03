@@ -1,10 +1,10 @@
 #include <iostream>
 #include <map>
 #include <string>
-#include <iomanip>  // Para formatar a média com 2 casas decimais
+#include <iomanip>  
 using namespace std;
 
-// Classe Aluno
+
 class Aluno {
 private:
     string nome;
@@ -14,19 +14,18 @@ private:
     float notaCiencias;
 
 public:
-    // Construtor padrão
+ 
     Aluno() : nome(""), matricula(0), notaMatematica(0.0), notaPortugues(0.0), notaCiencias(0.0) {}
 
-    // Construtor com parâmetros
+
     Aluno(string n, int m, float mat, float por, float c)
         : nome(n), matricula(m), notaMatematica(mat), notaPortugues(por), notaCiencias(c) {}
 
-    // Método para calcular a média
+
     float calcularMedia() const {
         return (notaMatematica + notaPortugues + notaCiencias) / 3.0f;
     }
 
-    // Método para exibir os dados do aluno
     void exibirDados() const {
         cout << "Nome: " << nome << endl;
         cout << "Matrícula: " << matricula << endl;
@@ -54,8 +53,8 @@ int main() {
             float notaMatematica, notaPortugues, notaCiencias;
 
             cout << "Informe o nome do aluno: ";
-            cin.ignore();  // Limpar o buffer de entrada antes de usar getline
-            getline(cin, nome);  // Captura o nome com espaços
+            cin.ignore();  
+            getline(cin, nome);
 
             cout << "Informe a matrícula do aluno: ";
             cin >> matricula;
@@ -69,9 +68,8 @@ int main() {
             cout << "Informe a nota de Ciências: ";
             cin >> notaCiencias;
 
-            // Criar um objeto Aluno e armazená-lo no map com a matrícula como chave
             Aluno aluno(nome, matricula, notaMatematica, notaPortugues, notaCiencias);
-            alunos[matricula] = aluno;  // A matrícula é a chave do map
+            alunos[matricula] = aluno; 
         } 
         else if (opcao == 2) {
             if (alunos.empty()) {
