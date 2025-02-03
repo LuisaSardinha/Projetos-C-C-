@@ -1,3 +1,22 @@
+// Proposta: Implementar
+//Herança para as classes Veículo (superclasse), Carro (subclasse) e Moto (subclasse), implementando os atributos e
+//métodos abaixo:
+
+//Veiculo:
+//- Marca, modelo ano, velocidade
+//- acelerar(), frear(), exibirDados()
+
+//Carro:
+//-numeroPortas
+//-ligarArCondicionado()
+//-exibirDados()
+
+//Moto:
+//- cilindradas
+//- empinar()
+//- exibirDados()
+
+
 #include <iostream>
 #include <string>
 using namespace std;
