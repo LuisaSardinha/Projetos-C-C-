@@ -1,3 +1,16 @@
+//Proposta: Usando Classe, crie um programa em C++ que armazene as notas de alunos em 3 disciplinas. O programa deve:
+
+
+//•Cadastrar Alunos: Com nome, matrícula e notas em três disciplinas: Matemática, Português e Ciências.
+
+
+//•Calcular a Média de Cada Aluno: Para cada aluno, calcule a média das notas das três disciplinas.
+
+
+//•Exibir os Dados de Todos os
+//Alunos: Exiba os dados de todos os alunos, incluindo nome, matrícula, notas e média.
+
+
 #include <iostream>
 #include <map>
 #include <string>
